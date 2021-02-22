@@ -1,0 +1,2 @@
+Testes funcionais testam uma funcionalidade de maior granularidade do sistema.
+Além disso, diferentemente de testes de unidade, envolvem dependências e sistemas reais.
