@@ -1,0 +1,9 @@
+Quando utilizamos dois tipos de teste, Funcional e de Unidade,
+a execução do TDD é levemente diferente, podendo ser entendida
+como "recursiva".
+Nesse caso, na parte do Teste Funcional escrevemos um teste e 
+vemos se ele passa. Caso não passe, vamos para a etapa de escrever
+o "código mínimo" para fazer o teste passar mas, nesse caso, o 
+"código mínimo" é basicamente a execução de um novo TDD, dessa
+vez para os Testes de Unidade necessários para fazer com que o 
+Teste Funcional "pai" vá para a fase amarela/verde. 
